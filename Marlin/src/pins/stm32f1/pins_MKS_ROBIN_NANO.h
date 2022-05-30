@@ -46,8 +46,8 @@
 
 #include "pins_MKS_ROBIN_NANO_common.h"
 
-//#define PRINTER_NAME_FB5
-#define PRINTER_NAME_FB4S
+#define PRINTER_NAME_FB5
+//#define PRINTER_NAME_FB4S
 
 #ifdef PRINTER_NAME_FB5
   #ifdef PRINTER_NAME_FB4S
@@ -86,7 +86,7 @@ https://easyeda.com/sst78rust/fb4s-led-control
 /*
 BlTouch
 */
-#define SERVO_PIN                           PB2   
+#define SERVO_PIN                           PB2
 #define BL_TOUCH_Z_PIN                      PC4
 
 
@@ -106,11 +106,11 @@ https://sergey1560.github.io/fb4s_howto/mks_pwc/
 
 #ifdef PRINTER_NAME_FB5
   #define FIL_RUNOUT_LEVEL  LOW
-#endif 
+#endif
 
 #ifdef PRINTER_NAME_FB4S
   #define FIL_RUNOUT_LEVEL  HIGH
-#endif 
+#endif
 
 #ifndef FIL_RUNOUT_LEVEL
   #define FIL_RUNOUT_LEVEL HIGH

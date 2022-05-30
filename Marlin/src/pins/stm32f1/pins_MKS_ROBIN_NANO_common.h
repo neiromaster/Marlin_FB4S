@@ -57,7 +57,7 @@
 //
 // Limit Switches
 //
-#define X_STOP_PIN                          PA15
+#define X_STOP_PIN                          PA4
 #define Y_STOP_PIN                          PA12
 #define Z_MIN_PIN                           PA11
 #define Z_MAX_PIN                           PC4
@@ -145,7 +145,7 @@
 #else
   //#define POWER_LOSS_PIN                  PA2   // PW_DET
   //#define PS_ON_PIN                       PB2   // PW_OFF
-  #define FIL_RUNOUT_PIN                    PA4
+  //#define FIL_RUNOUT_PIN                    PA4
   #define FIL_RUNOUT2_PIN                   PE6
 #endif
 
